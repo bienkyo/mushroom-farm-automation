@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+
 def split_time(num_ranges):
     interval = timedelta(hours=1)
     now = datetime.now()

@@ -2,13 +2,50 @@
 {% block title %}Dashboard{% endblock %}
 {% block content %}
     <div class="row">
+        <div class="col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="red">
+                    <i class="fas fa-thermometer-half fa-lg"></i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Nhiệt độ</p>
+                    <h3 class="card-title">30 &#8451</h3>
+
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">update</i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header" data-background-color="blue">
+                    <i class="fas fa-tint fa-lg"></i>
+                </div>
+                <div class="card-content">
+                    <p class="category">Độ ẩm</p>
+                    <h3 class="card-title">80%</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons">update</i> Just Updated
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>Giá 1</h3>
+    <div class="row">
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header card-header-icon" data-background-color="red">
-                    <i class="material-icons">timeline</i>
+                    <i class="fas fa-thermometer-half fa-lg"></i>
                 </div>
                 <div class="card-content">
-                    <h4 class="card-title">Temperature
+                    <h4 class="card-title">Nhiệt độ
                     </h4>
                 </div>
                 <div id="tempLineChart" class="ct-chart"></div>
@@ -17,10 +54,10 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header card-header-icon" data-background-color="blue">
-                    <i class="material-icons">timeline</i>
+                    <i class="fas fa-tint fa-lg"></i>
                 </div>
                 <div class="card-content">
-                    <h4 class="card-title">Humidity
+                    <h4 class="card-title">Độ ẩm
                     </h4>
                 </div>
                 <div id="humidityLineChart" class="ct-chart"></div>
@@ -33,38 +70,89 @@
     {{ super() }}
     <script src="{{ url_for('static', filename='js/chartist.min.js') }}" type="text/javascript"></script>
     <script>
-        dataTempLineChart = {
-            labels: ['\'06', '\'07', '\'08', '\'09', '\'10', '\'11', '\'12', '\'13', '\'14', '\'15'],
-            series: [
-                [287, 480, 290, 554, 690, 690, 500, 752, 650, 900, 944]
-            ]
-        };
-        optionsColouredRoundedLineChart = {
-            lineSmooth: Chartist.Interpolation.cardinal({
-                tension: 10
-            }),
-            axisY: {
-                showGrid: true,
-                offset: 40
-            },
-            axisX: {
-                showGrid: false,
-            },
-            low: 0,
-            high: 1000,
-            showPoint: true,
-            height: '300px'
-        };
-        var tempLineChart = new Chartist.Line('#tempLineChart', dataTempLineChart, optionsColouredRoundedLineChart);
-        md.startAnimationForLineChart(tempLineChart);
+        var data = JSON.parse('{{ data|safe }}');
+        console.log(data);
+        display_chart_data(data);
 
-        dataHumidityLineChart = {
-            labels: ['\'06', '\'07', '\'08', '\'09', '\'10', '\'11', '\'12', '\'13', '\'14', '\'15'],
-            series: [
-                [928, 413, 667, 524, 670, 214, 289, 839, 327, 342, 445]
-            ]
-        };
-        var humidityLineChart = new Chartist.Line('#humidityLineChart', dataHumidityLineChart, optionsColouredRoundedLineChart);
-        md.startAnimationForLineChart(humidityLineChart);
+        function display_chart_data(data) {
+            var dataTempLineChart = {
+                series:[]
+            };
+            var dataHumidityLineChart = {
+                series:[]
+            };
+            for (i = 0; i < 1; i++) {
+                tempHumidityData = data[i].data;
+                seriestempData = {name: 'temp-1', data: []};
+                seriesHumidityData = {name: 'hum-1', data: []};
+                for (j = 0; j < tempHumidityData.length; j++) {
+                    seriestempData.data.unshift({
+                        x: new Date(tempHumidityData[j].start),
+                        y: tempHumidityData[j].avg_temp + 20
+                    });
+
+                    seriesHumidityData.data.unshift({
+                        x: new Date(tempHumidityData[j].start),
+                        y: tempHumidityData[j].avg_humidity + 20
+                    });
+                }
+                dataTempLineChart.series.push(seriestempData);
+                dataHumidityLineChart.series.push(seriesHumidityData);
+            }
+            console.log(dataTempLineChart);
+
+            var optionsTempLineChart = {
+                lineSmooth: false,
+                axisY: {
+                    showGrid: true,
+                    offset: 60,
+                    labelInterpolationFnc: function (value) {
+                        return value + '\xB0 C';
+                    }
+                },
+                axisX: {
+                    showGrid: false,
+                    type: Chartist.FixedScaleAxis,
+                    divisor:5,
+                    labelInterpolationFnc: function (value) {
+                        moment.locale();
+                        return moment(value).format('Do , h[h]');
+                    }
+                },
+                low: 0,
+                high: 80,
+                showPoint: true,
+                height: '300px'
+            };
+            var optionsHumidityLineChart = {
+                lineSmooth: false,
+                axisY: {
+                    showGrid: true,
+                    offset: 60,
+                    divisor:5,
+                    labelInterpolationFnc: function (value) {
+                        return value + '%';
+                    }
+                },
+                axisX: {
+                    showGrid: false,
+                    type: Chartist.FixedScaleAxis,
+                    divisor:5,
+                    labelInterpolationFnc: function (value) {
+                        return moment(value).format('Do h[h]');
+                    }
+                },
+                low: 0,
+                high: 100,
+                showPoint: true,
+                height: '300px'
+            };
+
+
+            var tempLineChart = new Chartist.Line('#tempLineChart', dataTempLineChart, optionsTempLineChart);
+            md.startAnimationForLineChart(tempLineChart);
+            var humidityLineChart = new Chartist.Line('#humidityLineChart', dataHumidityLineChart, optionsHumidityLineChart);
+            md.startAnimationForLineChart(humidityLineChart);
+        }
     </script>
 {% endblock %}
