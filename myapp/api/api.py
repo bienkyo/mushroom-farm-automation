@@ -1,7 +1,6 @@
 from flask import Blueprint
 from flask import request, jsonify
-from app.utils.utils import split_time
-import app.models as dbhelper
+from myapp.utils.utils import split_time
 
 api = Blueprint('api', __name__)
 

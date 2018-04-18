@@ -1,3 +1,7 @@
 /venv
+/venvlinux_pi27
+/venv_pi
+/venv_pi27
+/migrations/alembic.ini
 /.idea
 /app/__pycache__

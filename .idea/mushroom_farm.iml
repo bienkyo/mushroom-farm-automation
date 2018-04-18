@@ -4,8 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv_linux" />
+      <excludeFolder url="file://$MODULE_DIR$/venv_pi" />
+      <excludeFolder url="file://$MODULE_DIR$/venv_pi27" />
+      <excludeFolder url="file://$MODULE_DIR$/venvlinux_pi27" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (mfarm-automation)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7 (mfarm-automation) (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">

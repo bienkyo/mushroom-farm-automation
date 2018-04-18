@@ -1,3 +1,5 @@
 Flask
 flask-mqtt
 Flask-InfluxDB
+flask_sqlalchemy
+Flask-Migrate

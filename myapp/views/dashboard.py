@@ -1,6 +1,4 @@
 from flask import Blueprint, render_template
-import json
-import app.models as dbhelper
 
 dash = Blueprint('dashboard', __name__)
 

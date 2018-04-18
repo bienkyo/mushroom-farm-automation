@@ -93,7 +93,7 @@ def format_influxdb_data(shelf_id, measure_type, value, timestamp=None):
         return {
             "measurement": measure_type,
             "tags": {
-                "device_id": shelf_id
+                "shelf_id": shelf_id
             },
             "fields": {
                 "value": value
@@ -120,6 +120,7 @@ def write_influxdb_list(data):
     try:
         print('Saving data')
         client.write_points(data)
+        client.close()
         return 0
     except Exception as except_msg:
         print(
