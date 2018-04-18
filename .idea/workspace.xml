@@ -2,182 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a6052a-2ffb-445f-96fa-c11e21cb82e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.bashrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/README" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/env.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/script.py.mako" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/23724b77eada_.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/d5a470d36445_.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/ControllerDevice.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Crop.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Material.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Measurement.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Mushroom.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/MushroomCondition.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/MushroomFarm.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Owner.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/PID.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Phase.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Sensor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/Status.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/models/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-brands.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-brands.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-regular.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-regular.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-solid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fa-solid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fontawesome-all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fontawesome-all.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fontawesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/myapp/static/css/fontawesome.min.css" />
       <change beforePath="$PROJECT_DIR$/.dockerignore" afterPath="$PROJECT_DIR$/.dockerignore" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/mushroom_farm.iml" afterPath="$PROJECT_DIR$/.idea/mushroom_farm.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" afterPath="$PROJECT_DIR$/myapp/views/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/app/api/api.py" afterPath="$PROJECT_DIR$/myapp/api/api.py" />
-      <change beforePath="$PROJECT_DIR$/app/forms.py" afterPath="$PROJECT_DIR$/myapp/forms.py" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/myapp/static/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/demo.css" afterPath="$PROJECT_DIR$/myapp/static/css/demo.css" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/material-dashboard.css" afterPath="$PROJECT_DIR$/myapp/static/css/material-dashboard.css" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/card-3.jpeg" afterPath="$PROJECT_DIR$/myapp/static/img/card-3.jpeg" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/default-avatar.png" afterPath="$PROJECT_DIR$/myapp/static/img/default-avatar.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AD.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AD.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/AU.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/AU.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/BE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/BE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/BO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/BO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/BR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/BR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CD.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CD.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CH.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CH.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/CZ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/CZ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/DE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/DE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/DJ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/DJ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/DK.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/DK.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/DZ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/DZ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/EE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/EE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/EG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/EG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/ES.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/ES.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/FI.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/FI.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/FR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/FR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/GA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/GA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/GB.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/GB.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/GM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/GM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/GT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/GT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/HN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/HN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/HT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/HT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/HU.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/HU.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/ID.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/ID.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IQ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IQ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/IT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/IT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/JM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/JM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/JO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/JO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/JP.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/JP.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KP.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KP.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KW.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KW.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/KZ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/KZ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LB.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LB.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LC.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LC.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LS.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LS.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LU.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LU.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/LV.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/LV.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/MG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/MG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/ML.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/ML.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/MM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/MM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/MT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/MT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/MX.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/MX.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/NA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/NA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/NI.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/NI.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/NL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/NL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/NO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/NO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/OM.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/OM.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PK.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PK.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PT.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PT.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/PY.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/PY.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/QA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/QA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/RO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/RO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/RU.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/RU.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/RW.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/RW.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SG.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SG.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SO.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SO.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/SV.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/SV.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/TD.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/TD.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/TL.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/TL.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/TR.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/TR.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/TZ.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/TZ.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/UA.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/UA.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/US.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/US.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/VE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/VE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/VN.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/VN.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/flags/YE.png" afterPath="$PROJECT_DIR$/myapp/static/img/flags/YE.png" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/miku.jpg" afterPath="$PROJECT_DIR$/myapp/static/img/miku.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/sidebar-1.jpg" afterPath="$PROJECT_DIR$/myapp/static/img/sidebar-1.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/sidebar-2.jpg" afterPath="$PROJECT_DIR$/myapp/static/img/sidebar-2.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/sidebar-3.jpg" afterPath="$PROJECT_DIR$/myapp/static/img/sidebar-3.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/sidebar-4.jpg" afterPath="$PROJECT_DIR$/myapp/static/img/sidebar-4.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/arrive.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/arrive.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/myapp/static/js/bootstrap-datetimepicker.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/myapp/static/js/bootstrap-notify.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/chartist.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/chartist.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/demo.js" afterPath="$PROJECT_DIR$/myapp/static/js/demo.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/fullcalendar.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jasny-bootstrap.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/jasny-bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery-3.2.1.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-jvectormap.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery-jvectormap.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.bootstrap-wizard.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.bootstrap-wizard.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.datatables.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.datatables.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.select-bootstrap.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.select-bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.sharrre.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.sharrre.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.tagsinput.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.validate.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/material-dashboard.js" afterPath="$PROJECT_DIR$/myapp/static/js/material-dashboard.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/material.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/material.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/moment.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/moment.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/nouislider.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/nouislider.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/perfect-scrollbar.jquery.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/perfect-scrollbar.jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/sweetalert2.js" afterPath="$PROJECT_DIR$/myapp/static/js/sweetalert2.js" />
-      <change beforePath="$PROJECT_DIR$/app/templates/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/myapp/templates/dashboard/dashboard.html" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" afterPath="$PROJECT_DIR$/myapp/templates/layout.html" />
-      <change beforePath="$PROJECT_DIR$/app/utils/__init__.py" afterPath="$PROJECT_DIR$/myapp/utils/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/app/utils/influx.py" afterPath="$PROJECT_DIR$/myapp/utils/influx.py" />
-      <change beforePath="$PROJECT_DIR$/app/utils/utils.py" afterPath="$PROJECT_DIR$/myapp/utils/utils.py" />
-      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" afterPath="$PROJECT_DIR$/myapp/api/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/app/views/dashboard.py" afterPath="$PROJECT_DIR$/myapp/views/dashboard.py" />
       <change beforePath="$PROJECT_DIR$/config/default.py" afterPath="$PROJECT_DIR$/config/default.py" />
       <change beforePath="$PROJECT_DIR$/instance/config.py" afterPath="$PROJECT_DIR$/instance/config.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/__init__.py" afterPath="$PROJECT_DIR$/myapp/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/api/api.py" afterPath="$PROJECT_DIR$/myapp/api/api.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/ControllerDevice.py" afterPath="$PROJECT_DIR$/myapp/models/ControllerDevice.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/Crop.py" afterPath="$PROJECT_DIR$/myapp/models/Crop.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/Mushroom.py" afterPath="$PROJECT_DIR$/myapp/models/Mushroom.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/MushroomCondition.py" afterPath="$PROJECT_DIR$/myapp/models/MushroomCondition.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/MushroomFarm.py" afterPath="$PROJECT_DIR$/myapp/models/MushroomFarm.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/Owner.py" afterPath="$PROJECT_DIR$/myapp/models/Owner.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/PID.py" afterPath="$PROJECT_DIR$/myapp/models/PID.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/Sensor.py" afterPath="$PROJECT_DIR$/myapp/models/Sensor.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/Status.py" afterPath="$PROJECT_DIR$/myapp/models/Status.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/models/__init__.py" afterPath="$PROJECT_DIR$/myapp/models/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/static/js/jquery.sharrre.min.js" afterPath="$PROJECT_DIR$/myapp/static/js/jquery.sharrre.min.js" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/myapp/templates/dashboard/dashboard.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/templates/layout.html" afterPath="$PROJECT_DIR$/myapp/templates/layout.html" />
+      <change beforePath="$PROJECT_DIR$/myapp/utils/influx.py" afterPath="$PROJECT_DIR$/myapp/utils/influx.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/utils/utils.py" afterPath="$PROJECT_DIR$/myapp/utils/utils.py" />
+      <change beforePath="$PROJECT_DIR$/myapp/views/dashboard.py" afterPath="$PROJECT_DIR$/myapp/views/dashboard.py" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
@@ -207,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/instance/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -221,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -231,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/.dockerignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -271,17 +119,17 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="influx.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="influx.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/utils/influx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -395,8 +243,8 @@
         <option value="$PROJECT_DIR$/myapp/models/PID.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/myapp/__init__.py" />
-        <option value="$PROJECT_DIR$/instance/config.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/instance/config.py" />
       </list>
     </option>
   </component>
@@ -429,7 +277,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,7 +287,7 @@
             <path>
               <item name="mfarm-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="mfarm-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="instance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mfarm-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -457,6 +304,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,11 +450,19 @@
       <option name="project" value="LOCAL" />
       <updated>1520241935528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add ORM">
+      <created>1524035421109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524035421109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -615,7 +471,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22111663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2238806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -642,7 +498,8 @@
     <MESSAGE value="change port 80 to 5000" />
     <MESSAGE value="update api" />
     <MESSAGE value="influxdb" />
-    <option name="LAST_COMMIT_MESSAGE" value="influxdb" />
+    <MESSAGE value="Add ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ORM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7938">
           <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,18 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instance/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -983,7 +825,7 @@
     <entry file="file://$PROJECT_DIR$/.dockerignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -991,15 +833,23 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/utils/influx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instance/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
